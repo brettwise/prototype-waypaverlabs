@@ -1,7 +1,14 @@
-#speaker-section {
-	h3 {
-		text-transform: none;
-	}
+.date {
+	color: $grey;
+	margin-bottom: -.1rem;
+}
+.name {
+	text-transform: none;
+}
+.subhead {
+	color: $grey;
+	font-weight: bold;
+	margin-top: -1rem;
 }
 body {
 	background-color: $white;
