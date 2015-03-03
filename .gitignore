@@ -2,6 +2,7 @@
 .sass-cache
 build
 Desktop.ini
+.divshot-cache/
 node_modules
 src/sass/vendor/*
 src/js/vendor/*
