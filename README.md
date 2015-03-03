@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/brettwise/waypaver.org.png?label=ready&title=Ready)](https://waffle.io/brettwise/waypaver.org)
 # Getting Started
 
 ## What to do when you've just freshly cloned this repo
