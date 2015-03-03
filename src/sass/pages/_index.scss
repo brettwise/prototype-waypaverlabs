@@ -1,12 +1,14 @@
 body {
 	background-color: $white;
 }
+.bold {
+	font-weight: 600;
+}
 .black-background {
 	background-color: $black;
 	color: $white;
 	h5 {
 		color: $white;
-		margin-bottom: -1rem;
 	}
 }
 .button-section {
@@ -15,5 +17,6 @@ body {
 	text-transform: uppercase;
 	h5 {
 		margin-bottom: -1rem;
+		font-weight: 600;
 	}
 }
