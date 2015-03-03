@@ -1,0 +1,10 @@
+// On hover color & background-color reverse. Keeping it DRY!
+@mixin color-background-button($color, $background-color) {
+	background-color: $background-color;
+	border-color: $color;
+	color: $color;
+	&:hover {
+		background-color: $color;
+		color: $background-color;
+	}
+}

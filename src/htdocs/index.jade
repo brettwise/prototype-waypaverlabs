@@ -1,7 +1,26 @@
 extends layouts/h5bp.jade
 
 block title
-	title This Cray
+	title Prototype Styleguide
 
 block content
-	p can you believe this content!
+	.row
+		.medium-12.columns
+			h1.uppercase Buttons
+	.black-background
+		.button-section
+			.row
+				.medium-12.columns
+					h5 Primary (Dark BKGD)
+					button.blue-dark-background-button Main CTA
+					button.white-dark-background-button Main CTA
+					button.red-dark-background-button Main CTA
+					button.grey-dark-background-button Main CTA
+	.button-section
+		.row
+			.medium-12.columns
+				h5 Primary (Light BKGD)
+				button.blue-light-background-button Main CTA
+				button.black-light-background-button Main CTA
+				button.red-light-background-button Main CTA
+				button.grey-light-background-button Main CTA
