@@ -8,3 +8,11 @@
 		color: $background-color;
 	}
 }
+@mixin secondary-button($color, $text-color, $amount) {
+	background-color: $color;
+	color: $text-color;
+	&:hover {
+		background-color: darken($color, $amount);
+		color: $text-color;
+	}
+}
