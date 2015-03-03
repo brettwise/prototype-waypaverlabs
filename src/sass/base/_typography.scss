@@ -1,1 +1,8 @@
-// Typography sizes defined in foundation-settings
+// A lot of the typography related things are defined in foundation-settings
+
+h1, h2, h3  {
+	letter-spacing: .2rem;
+}
+h4, h5, h6 {
+	letter-spacing: .1rem;
+}
