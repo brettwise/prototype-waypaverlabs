@@ -1,4 +1,5 @@
-// On hover color & background-color reverse. Keeping it DRY!
+// Button related mixins.
+// On hover color & background-color reverse for primary button style. Keeping it DRY!
 @mixin color-background-button($color, $background-color) {
 	background-color: $background-color;
 	border-color: $color;
@@ -8,6 +9,7 @@
 		color: $background-color;
 	}
 }
+// For secondary button style.
 @mixin secondary-button($color, $text-color, $amount) {
 	background-color: $color;
 	color: $text-color;
