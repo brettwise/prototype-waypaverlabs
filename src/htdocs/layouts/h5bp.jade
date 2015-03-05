@@ -8,7 +8,6 @@ html.no-js(lang='en')
     meta(name='description', content='')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     link(rel='apple-touch-icon', href='apple-touch-icon.png')
-    // Place favicon.ico in the root directory
     link(rel='stylesheet', href='css/main.css')
     script(src='js/vendor/modernizr/modernizr.js')
     script(src='//use.typekit.net/jod2yyl.js')
@@ -24,8 +23,10 @@ html.no-js(lang='en')
         a(href='http://browsehappy.com/') upgrade your browser
         |  to improve your experience.
     // Add your site or application content here
-    block content 
-    include ./../includes/nav-overlay.jade
+    include ./../includes/navbar.jade
+    .content
+      block content 
+      include ./../includes/nav-overlay.jade
     script(src='js/vendor/classie.js')
     script(src='js/vendor/demo1.js')
     script(src='//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js')
