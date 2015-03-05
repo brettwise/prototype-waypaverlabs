@@ -7,7 +7,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(153,204,51,0.9);
+  background: rgba(0,0,0,0.9);
 }
 
 /* Overlay closing cross */
@@ -54,7 +54,7 @@
 }
 
 .overlay ul li a {
-  color: #fff;
+  color: $blue;
   display: block;
   font-size: 3rem;
   font-weight: 300;
@@ -69,6 +69,17 @@
 }
 
 /* Effects */
+#content.blur {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  transition: all 0.3s;
+}
+#content.no-blur {
+  transition: all 0.3s;
+}
 .overlay-hugeinc {
   opacity: 0;
   visibility: hidden;
