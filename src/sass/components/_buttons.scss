@@ -15,7 +15,7 @@ button {
 }
 .menu-button {
 	@extend .menu;
-	@include color-background-button($grey, $white);
+	@include color-background-button($white, $black);
 }
 // This is only used as an extend in the primary style buttons below.
 .primary-button {
