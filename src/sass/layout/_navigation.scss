@@ -14,6 +14,16 @@
   min-height: 3rem;
   background-color: $transparent-black;
 
+  p {
+    color: $white;
+    padding: 0.55rem 0 0 1rem;
+    text-transform: uppercase;
+
+    span {
+
+    }
+  }
+
   li {
     display: inline;
     float: right;
